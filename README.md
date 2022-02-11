@@ -8,9 +8,9 @@
 - css
 
 
-## Hadi Jafari
+## Author
 
-👤 ****
+👤 **Hadi Jafari**
 
 - GitHub:(https://github.com/Hadi111jafari)
 
