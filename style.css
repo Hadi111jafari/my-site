@@ -28,15 +28,15 @@ body {
     color: #6070ff;
   }
 
-  #menu {
+  nav #menu {
     margin-top: 0.8rem;
     color: #6070ff;
     font-size: xx-large;
   }
+
   #hero {
     padding: 2rem;
-    background: url("/images/Ellipse\ 3.png"), url("/images/Rectangle\ 4.png"),
-      url("/images/Ellipse\ 5.png");
+    background: url("/images/Ellipse\ 3.png"), url("/images/Rectangle\ 4.png"), url("/images/Ellipse\ 5.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top right, left, bottom;
     background-size: 4rem;
