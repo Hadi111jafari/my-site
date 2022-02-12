@@ -12,15 +12,16 @@ body {
 
 @media (max-width: 768px) {
   header {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 0 0 0 5rem;
   }
 
-  header nav {
+  nav {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
     justify-items: center;
+    background-color: #ffffff;
   }
 
   nav a {
@@ -36,7 +37,8 @@ body {
 
   #hero {
     padding: 2rem;
-    background: url("/images/Ellipse\ 3.png"), url("/images/Rectangle\ 4.png"), url("/images/Ellipse\ 5.png");
+    background: url("/images/Ellipse\ 3.png"), url("/images/Rectangle\ 4.png"),
+      url("/images/Ellipse\ 5.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top right, left, bottom;
     background-size: 4rem;
@@ -44,14 +46,23 @@ body {
   }
 
   #hero h1 {
-    font-size: 2.3rem;
+    font-size: 40px;
+    font-weight: 700;
     line-height: 52px;
+    color: #172b4d;
+    display: flex;
+  }
+
+  #bio {
+    color: #344563;
   }
 
   #social p {
     text-transform: uppercase;
     color: #7f8cff;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   #social ul {
@@ -60,7 +71,9 @@ body {
     padding-left: 0;
   }
 
-  #social ul li {
-    margin: 0 0.3rem;
+  #social ul li a {
+    margin: 0 0.4rem;
+    color: #505f79;
+    font-size: large;
   }
 }
