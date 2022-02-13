@@ -37,8 +37,7 @@ body {
 
   #hero {
     padding: 2rem;
-    background: url("/images/Ellipse\ 3.png"), url("/images/Rectangle\ 4.png"),
-      url("/images/Ellipse\ 5.png");
+    background: url("./images/Ellipse\ 3.png"), url("./images/Rectangle\ 4.png"), url("./images/Ellipse\ 5.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top right, left, bottom;
     background-size: 4rem;
@@ -71,6 +70,14 @@ body {
     padding-left: 0;
   }
 
+  .card-tags a {
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    text-decoration: none;
+    padding: 4px 12px;
+  }
+
   .social ul li a {
     margin: 0 0.4rem;
     color: #505f79;
@@ -78,17 +85,22 @@ body {
   }
 
   #cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
     padding: 16px;
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     border: 1px solid #dfe1e6;
     background-color: #fff;
     padding: 16px;
-    margin: 44px;
+    margin: 44px 24px;
     border-radius: 16px;
   }
 
@@ -98,7 +110,7 @@ body {
   }
 
   .card h3 {
-    margin: 12px 0px;
+    margin: 12px 0;
     font-size: 32px;
     line-height: 44px;
     font-weight: bold;
@@ -141,14 +153,6 @@ body {
     display: flex;
   }
 
-  .card-tags a {
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    text-decoration: none;
-    padding: 4px 12px;
-  }
-
   .card-button {
     border: 1px solid #396df2;
     font-weight: bold;
@@ -156,7 +160,6 @@ body {
     background-color: #fff;
     border-radius: 7px;
     padding: 0.8rem 1rem;
-    font-weight: 500;
     color: #396df2;
     letter-spacing: 0.03em;
     font-size: 17px;
@@ -185,7 +188,6 @@ body {
     background-color: #fff;
     border-radius: 7px;
     padding: 0.8rem 1rem;
-    font-weight: 500;
     color: #396df2;
     letter-spacing: 0.03em;
     font-size: 17px;
@@ -216,5 +218,26 @@ body {
     width: 48px;
     height: 48px;
     margin-right: 1rem;
+  }
+
+  .backend {
+    margin-left: 0.5rem;
+    margin-right: 0.6rem;
+  }
+
+  .year {
+    margin-left: 1rem;
+  }
+
+  .tag {
+    margin: 0 8px;
+  }
+
+  #showcase-first {
+    margin-top: 2rem;
+  }
+
+  .accordion {
+    margin-top: 1.2rem;
   }
 }

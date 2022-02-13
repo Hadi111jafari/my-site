@@ -32,7 +32,7 @@
     <header>
       <!-- Hero section -->
       <div id="hero">
-        <h1>I am Abdul Hadi Jafari Glad to see you!</h1>
+        <h3>I am Abdul Hadi Jafari Glad to see you!</h3>
         <p id="bio">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
@@ -70,18 +70,16 @@
     </header>
     <main>
       <!-- cards -->
-      <div id="cards">
+      <section id="cards">
         <div class="card">
-          <img src="/images/Snapshoot Portfolio.png" alt="Card Image" />
+          <img src="./images/SnapshootPortfolio.png" alt="Card Image" />
           <div>
             <h3>Tonic</h3>
             <div class="card-content">
               <h5 class="card-owner">Canopy</h5>
               <ul>
-                <li style="margin-left: 0.5rem; margin-right: 0.6rem">
-                  Back End Dev
-                </li>
-                <li style="margin-left: 1rem">2015</li>
+                <li class="backend">Back End Dev</li>
+                <li class="year">2015</li>
               </ul>
             </div>
             <p>
@@ -90,25 +88,23 @@
             </p>
             <div class="card-tags">
               <a href="">html</a>
-              <a style="margin: 0 8px" href="">css</a>
-              <a style="margin: 0 8px" href="">JavaScript</a>
+              <a class="tag" href="#">css</a>
+              <a class="tag" href="#">JavaScript</a>
             </div>
 
-            <button class="card-button">See Project</button>
+            <button type="button" class="card-button">See Project</button>
           </div>
         </div>
 
         <div class="card">
-          <img src="/images/Snapshoot Portfolio (1).png" alt="Card Image" />
+          <img src="./images/Snapshoot Portfolio (1).png" alt="Card Image" />
           <div>
             <h3>Multi-Post Stories</h3>
             <div class="card-content">
               <h5 class="card-owner">Canopy</h5>
               <ul>
-                <li style="margin-left: 0.5rem; margin-right: 0.6rem">
-                  Back End Dev
-                </li>
-                <li style="margin-left: 1rem">2015</li>
+                <li class="backend">Back End Dev</li>
+                <li class="year">2015</li>
               </ul>
             </div>
             <p>
@@ -117,25 +113,23 @@
             </p>
             <div class="card-tags">
               <a href="">html</a>
-              <a style="margin: 0 8px" href="">css</a>
-              <a style="margin: 0 8px" href="">JavaScript</a>
+              <a class="tag" href="#">css</a>
+              <a class="tag" href="#">JavaScript</a>
             </div>
 
-            <button class="card-button">See Project</button>
+            <button type="button" class="card-button">See Project</button>
           </div>
         </div>
 
         <div class="card">
-          <img src="/images/Snapshoot Portfolio (2).png" alt="Card Image" />
+          <img src="./images/Snapshoot Portfolio (2).png" alt="Card Image" />
           <div>
             <h3>Tonic</h3>
             <div class="card-content">
               <h5 class="card-owner">Canopy</h5>
               <ul>
-                <li style="margin-left: 0.5rem; margin-right: 0.6rem">
-                  Back End Dev
-                </li>
-                <li style="margin-left: 1rem">2015</li>
+                <li class="backend">Back End Dev</li>
+                <li class="year">2015</li>
               </ul>
             </div>
             <p>
@@ -144,24 +138,22 @@
             </p>
             <div class="card-tags">
               <a href="">html</a>
-              <a style="margin: 0 8px" href="">css</a>
-              <a style="margin: 0 8px" href="">JavaScript</a>
+              <a class="tag" href="#">css</a>
+              <a class="tag" href="#">JavaScript</a>
             </div>
 
-            <button class="card-button">See Project</button>
+            <button type="button" class="card-button">See Project</button>
           </div>
         </div>
         <div class="card">
-          <img src="/images/Snapshoot Portfolio (3).png" alt="Card Image" />
+          <img src="./images/Snapshoot Portfolio (3).png" alt="Card Image" />
           <div>
             <h3>Multi-Post Stories</h3>
             <div class="card-content">
               <h5 class="card-owner">Canopy</h5>
               <ul>
-                <li style="margin-left: 0.5rem; margin-right: 0.6rem">
-                  Back End Dev
-                </li>
-                <li style="margin-left: 1rem">2015</li>
+                <li class="backend">Back End Dev</li>
+                <li class="year">2015</li>
               </ul>
             </div>
             <p>
@@ -170,14 +162,14 @@
             </p>
             <div class="card-tags">
               <a href="">html</a>
-              <a style="margin: 0 8px" href="">css</a>
-              <a style="margin: 0 8px" href="">JavaScript</a>
+              <a class="tag" href="#">css</a>
+              <a class="tag" href="#">JavaScript</a>
             </div>
 
-            <button class="card-button">See Project</button>
+            <button type="button" class="card-button">See Project</button>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- about -->
       <div id="about">
@@ -216,37 +208,37 @@
           </ul>
         </div>
 
-        <button id="get-resume">Get my resume</button>
+        <button type="button" id="get-resume">Get my resume</button>
 
         <!-- skills -->
         <div>
-          <div class="showcase" style="margin-top: 2rem">
+          <div class="showcase" id="showcase-first">
             <p>Languages</p>
-            <i class="fas fa-caret-down" style="margin-top: 1.2rem"></i>
+            <i class="fas fa-caret-down" class="accordion"></i>
           </div>
 
-          <div id="languages">
-            <div class="language">
-              <img src="/images/Ellipse 1.png" alt="JavaScript" />
+          <ul id="languages">
+            <li class="language">
+              <img src="./images/Ellipse 1.png" alt="JavaScript" />
               <p>JavaScript</p>
-            </div>
-            <div class="language">
-              <img src="/images/Ellipse 1 (1).png" alt="JavaScript" />
+            </li>
+            <li class="language">
+              <img src="./images/Ellipse 1 (1).png" alt="JavaScript" />
               <p>HTML</p>
-            </div>
-            <div class="language">
-              <img src="/images/Ellipse 1 (2).png" alt="JavaScript" />
+            </li>
+            <li class="language">
+              <img src="./images/Ellipse 1 (2).png" alt="JavaScript" />
               <p>CSS</p>
-            </div>
-          </div>
+            </li>
+          </ul>
 
           <div class="showcase">
             <p>Frameworkds</p>
-            <i class="fas fa-caret-right" style="margin-top: 1.2rem"></i>
+            <i class="fas fa-caret-right" class="accordion"></i>
           </div>
           <div class="showcase">
             <p>Skills</p>
-            <i class="fas fa-caret-right" style="margin-top: 1.2rem"></i>
+            <i class="fas fa-caret-right" class="accordion"></i>
           </div>
         </div>
       </div>
