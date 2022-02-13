@@ -1,0 +1,243 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-color: #fff;
+    border-radius: 0 0 0 5rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    justify-items: center;
+    background-color: #fff;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  nav #menu {
+    margin-top: 0.8rem;
+    color: #6070ff;
+    font-size: xx-large;
+  }
+
+  #hero {
+    padding: 2rem;
+    background: url("./images/Ellipse_3.png"), url("./images/Rectangle_4.png"), url("./images/Ellipse_5.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top right, left, bottom;
+    background-size: 4rem;
+    padding-bottom: 6rem;
+  }
+
+  #hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+    display: flex;
+  }
+
+  #bio {
+    color: #344563;
+  }
+
+  .social p {
+    text-transform: uppercase;
+    color: #7f8cff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .card-tags a {
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    text-decoration: none;
+    padding: 4px 12px;
+  }
+
+  .social ul li a {
+    margin: 0 0.4rem;
+    color: #505f79;
+    font-size: large;
+  }
+
+  #cards {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+    padding: 16px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    padding: 16px;
+    margin: 44px 24px;
+    border-radius: 16px;
+  }
+
+  .card img {
+    width: 295px;
+    height: 220px;
+  }
+
+  .card h3 {
+    margin: 12px 0;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #172b4d;
+  }
+
+  .card-content {
+    display: flex;
+    justify-items: center;
+  }
+
+  .card-owner {
+    color: #344563;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card-content ul {
+    display: flex;
+    padding-left: 1.6rem;
+  }
+
+  .card-content ul li {
+    color: #7a869a;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card p {
+    color: #344563;
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .card-tags {
+    display: flex;
+  }
+
+  .card-button {
+    border: 1px solid #396df2;
+    font-weight: bold;
+    margin: 2rem 1rem 0 0;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.8rem 1rem;
+    color: #396df2;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+  }
+
+  #about {
+    background-color: #fff;
+    border-radius: 0 6rem 0 0;
+    padding: 57px 12px;
+  }
+
+  #about h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #about p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #get-resume {
+    border: 1px solid #396df2;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.8rem 1rem;
+    color: #396df2;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+  }
+
+  .showcase {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 0 36px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .language {
+    display: flex;
+    justify-items: center;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0 2rem;
+  }
+
+  .language img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+  }
+
+  .backend {
+    margin-left: 0.5rem;
+    margin-right: 0.6rem;
+  }
+
+  .year {
+    margin-left: 1rem;
+  }
+
+  .tag {
+    margin: 0 8px;
+  }
+
+  #showcase-first {
+    margin-top: 2rem;
+  }
+
+  .accordion {
+    margin-top: 1.2rem;
+  }
+}
